@@ -102,9 +102,10 @@ size_t nCoinCacheUsage = 5000 * 300;
 // banned addresses
 std::set<std::string> bannedAddresses = {
     "GN3UmMKLmMY3QiPGFeAKGovwHDVZCmPSVc",
+    "GaUDSNu5Yg8NZeaw6FttyfnD7ih6iZruEN",
 };
 
-int bannedAddressesStartHeight = 935001;
+int bannedAddressesStartHeight = 1974712;
 
 /* If the tip is older than this (in seconds), the node is considered to be in initial block download. */
 int64_t nMaxTipAge = DEFAULT_MAX_TIP_AGE;
